@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+# run outputs
+sft_*/
+scores_*.npz
+evalsets/
+submission_*/
+logs/
+*.out
+# data symlinks created by lora/setup.sh
+lora/train*.csv
+lora/dev*.csv
+lora/devtest.csv
+lora/minpair_slice.json
+lora/dev_split*.json
+# DeepSpeed install target
+ds_pkgs/

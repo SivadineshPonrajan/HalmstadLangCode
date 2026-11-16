@@ -1,0 +1,10 @@
+# versions used for the reported results (aarch64, GH200)
+torch==2.11.0+cu130
+transformers==5.10.1
+peft==0.20.0
+accelerate==1.13.0
+safetensors==0.8.0
+tokenizers==0.22.2
+huggingface_hub==1.27.0
+numpy==2.3.5
+scikit-learn==1.9.0
